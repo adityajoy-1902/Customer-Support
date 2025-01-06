@@ -7,7 +7,7 @@ import os
 warnings.filterwarnings('ignore')
 
 # Set OpenAI model
-os.environ["OPENAI_API_KEY"] = "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"
+###os.environ["OPENAI_API_KEY"] = "Your api keys"
 
 os.environ["OPENAI_MODEL_NAME"] = "gpt-4-turbo"
 
