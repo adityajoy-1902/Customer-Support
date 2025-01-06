@@ -3,6 +3,14 @@ import streamlit as st
 from crewai import Agent, Task, Crew
 import os
 
+import chromadb
+
+client = chromadb.Client()
+collection = client.get_collection(name="chroma_docs")
+results = collection.get(ids=["page"])["documents"]
+print(results) # Not found []
+
+
 # Suppress warnings
 warnings.filterwarnings('ignore')
 
