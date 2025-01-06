@@ -1,5 +1,4 @@
 crewai==0.95.0
 crewai_tools==0.25.8
-streamlit==1.41.1
-chromadb
-warnings
+streamlit>=1.24.0
+chromadb==0.6.1
