@@ -1,5 +1,4 @@
+chromadb==0.5.23  # Compatible with older sqlite3 versions
 crewai==0.95.0
 crewai_tools==0.25.8
 streamlit>=1.24.0
-chromadb>=0.5.10,<0.6.0
-embedchain==0.1.125
