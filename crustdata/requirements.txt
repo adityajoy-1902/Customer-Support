@@ -2,3 +2,4 @@ crewai==0.95.0
 crewai_tools==0.25.8
 streamlit==1.41.1
 chromadb
+warnings
